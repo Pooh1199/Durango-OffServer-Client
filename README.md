@@ -28,7 +28,7 @@ launcher เช็คเวอร์ชันกับเซิร์ฟทุ�
 **ย้ายเครื่อง:** เปิด `offserver.txt` บนเครื่องใหม่ เติมบรรทัด `account=<Account Number ของเรา>` แล้วเข้าเกม — ตัวละครเดิมโผล่มาเลย
 ⚠️ **ห้ามบอก Account Number ให้ใคร** — ใครถือเลขนี้เข้าบัญชีนี้ได้ (ผูก Discord ไว้ = แอดมินช่วยกู้ได้เมื่อโดนขโมย)
 
-**กันลืม/กันโดนขโมย:** ผูก Discord ผ่านบอท (กด 🔗 ผูกบัญชีเกม → ได้โค้ด 6 ตัว) แล้วกรอกโค้ดในเกมที่ **ตั้งค่า ▸ Account ▸ Enter Coupon**
+**กันลืม/กันโดนขโมย:** ผูก Discord ในเกมได้เลย (v3.0.0 ขึ้นไป) — **ตั้งค่า ▸ Account ▸ Link Discord** → กดอนุญาตในเบราว์เซอร์ → เสร็จ · หรือทางเดิม: บอท (กด 🔗 ผูกบัญชีเกม → ได้โค้ด 6 ตัว) แล้วกรอกโค้ดที่ **ตั้งค่า ▸ Account ▸ Enter Coupon**
 
 ## มีปัญหา
 - เปิดแล้วไม่ขึ้นอะไร → ดู `player.log` ในโฟลเดอร์เกม และ `%TEMP%\DurangoLauncher.log`
@@ -59,7 +59,7 @@ launcher เช็คเวอร์ชันกับเซิร์ฟทุ�
 | สัตว์เลี้ยง (จับ/เลี้ยง/งาน/ขี่/สกิล) | `█████████░` 7/8 | ✅ · 🟡 **สกิลติดตัว 37 สกิล** · ⬜ ปล่อยเลี้ยง (`GrazePets`) |
 | เควส / ภารกิจองค์กร / เมล / อีเวนต์ | `█████████░` 12/13 | ✅ เควสเรื่อง/ภารกิจ/เมล · 🟡 **รายสัปดาห์ 64 + ต้านอากาศ 36 (รีเซ็ตจันทร์ 05:00)** · 🟡 เช็คชื่อ + แจกแบบแปลนอีเวนต์ · 🟡 เสบียงองค์กร 11 ขั้น/57 คำขอ · ⬜ `GuideProgress`/`TutorialEvent` |
 | สังคม: เพื่อน / ปาร์ตี้ / แคลน / ตลาด / วิทยุ / ดนตรี / PvP | `████████░░` 6/7 | 🟡 **เพื่อน · ปาร์ตี้ · แคลน (ยศ/คลัง/แชท/ที่ดิน/กองทุน/พันธมิตร/วิจัย) · ตลาด · วิทยุ · ดนตรี→คอนเสิร์ต** ทำครบแล้ว รอเทสจริง · ⬜ PvP (ไม่มีแผน) |
-| แอดมิน / Discord / สำรองข้อมูล | `██████████` 7/7 | ✅ **ผูกบัญชี Discord ผ่านเมนู 쿠폰 (ปุ่ม «ใส่คูปอง» ใน v2.7)** · บอท ticket สำหรับ Supporter · จดหมายอัปเดตอัตโนมัติ · สำรองเซฟ · hot reload ตาราง |
+| แอดมิน / Discord / สำรองข้อมูล | `██████████` 7/7 | ✅ **ผูกบัญชี Discord ในเกม: ตั้งค่า ▸ Account ▸ Link Discord (v3.0.0)** · ช่อง «ใส่คูปอง» รับโค้ดบอทได้เหมือนเดิม · บอท ticket สำหรับ Supporter · จดหมายอัปเดตอัตโนมัติ · สำรองเซฟ · hot reload ตาราง |
 
 ### ⚠️ ยังไม่ได้เทสกับตัวเกมจริง — ใช้แล้วเจออะไรแจ้งใน [Issues](../../issues)
 - 🟡 **ฟีเจอร์รอบ 19–20 ก.ย. ทั้งหมด** (แคลน · รายสัปดาห์ · ร้าน/ขนส่ง · ดัดแปลง · เสบียง · สกิลสัตว์เลี้ยง · รอยแยก · เครื่องต่อย · **สมดุลต่อสู้ใหม่**) เทสผ่านบอทเท่านั้น
@@ -100,7 +100,7 @@ First time in the game = the server automatically creates a **unique account UUI
 **Moving PCs:** on the new PC open `offserver.txt`, add the line `account=<your Account Number>`, then start the game — your characters are right there.
 ⚠️ **Never share your Account Number** — whoever has it can enter your account (linking Discord lets admins help recover it).
 
-**Keep it safe:** link Discord via the bot (🔗 button → you get a 6-character code), then enter the code in-game at **Settings ▸ Account ▸ Enter Coupon**
+**Keep it safe:** link Discord right in the game (v3.0.0+) — **Settings ▸ Account ▸ Link Discord** → authorize in your browser → done · or the old way: the bot (🔗 button → 6-character code), then enter it at **Settings ▸ Account ▸ Enter Coupon**
 
 ## Problems
 - Nothing shows up after launching → check `player.log` in the game folder and `%TEMP%\DurangoLauncher.log`
@@ -131,7 +131,7 @@ Legend: ✅ done + tested · 🟡 done **but not yet tested with the real client
 | Pets (tame / raise / work / ride / skills) | `█████████░` 7/8 | ✅ · 🟡 **37 pet active skills** · ⬜ grazing (`GrazePets`) |
 | Quests / faction missions / mail / events | `█████████░` 12/13 | ✅ story quests / missions / mail · 🟡 **weekly 64 + weather resistance 36 (reset Monday 05:00)** · 🟡 attendance + event blueprints · 🟡 faction supply 11 tiers / 57 requests · ⬜ `GuideProgress` / `TutorialEvent` |
 | Social: friends / party / clan / market / radio / music / PvP | `████████░░` 6/7 | 🟡 **friends · party · clan (ranks / storage / chat / land / fund / allies / research) · market · radio · music → concerts** all implemented, awaiting real-client testing · ⬜ PvP (not planned) |
-| Admin / Discord / backups | `██████████` 7/7 | ✅ **link your Discord via the coupon menu (new "Enter coupon" button in v2.7)** · ticket bot for Supporters · automatic update mails · save backups · hot-reload tables |
+| Admin / Discord / backups | `██████████` 7/7 | ✅ **link Discord in-game: Settings ▸ Account ▸ Link Discord (v3.0.0)** · the "Enter coupon" box still takes bot codes · ticket bot for Supporters · automatic update mails · save backups · hot-reload tables |
 
 ### ⚠️ Not yet tested with the real client — report anything in [Issues](../../issues)
 - 🟡 **everything from the 19–20 Sep rounds** (clan · weekly · shop / cargo · modification · supply · pet skills · rift · punch machine · **new combat balance**) was tested with bots only
@@ -172,7 +172,7 @@ Masuk game pertama kali = server otomatis membuat **akun UUID unik** untukmu. Li
 **Pindah PC:** di PC baru buka `offserver.txt`, tambahkan baris `account=<Account Number milikmu>`, lalu masuk game — karakter lamamu langsung muncul.
 ⚠️ **Jangan beritahu Account Number ke siapa pun** — siapa pun yang memegang nomor ini bisa masuk akunmu (kalau sudah link Discord, admin bisa bantu pulihkan).
 
-**Amankan akun:** link Discord lewat bot (tombol 🔗 → kamu dapat kode 6 karakter), lalu masukkan kodenya di dalam game di **Pengaturan ▸ Account ▸ Enter Coupon**
+**Amankan akun:** tautkan Discord langsung dari game (v3.0.0 ke atas) — **Pengaturan ▸ Account ▸ Link Discord** → izinkan di browser → selesai · atau cara lama: bot (tombol 🔗 → kode 6 karakter), lalu masukkan di **Pengaturan ▸ Account ▸ Enter Coupon**
 
 ## Ada masalah
 - Tidak muncul apa-apa setelah dijalankan → cek `player.log` di folder game dan `%TEMP%\DurangoLauncher.log`
@@ -203,7 +203,7 @@ Keterangan: ✅ selesai + diuji · 🟡 selesai **tapi belum diuji dengan client
 | Hewan peliharaan (tangkap / rawat / kerja / tunggang / skill) | `█████████░` 7/8 | ✅ · 🟡 **37 skill aktif peliharaan** · ⬜ lepas merumput (`GrazePets`) |
 | Quest / misi faksi / surat / event | `█████████░` 12/13 | ✅ quest cerita / misi / surat · 🟡 **mingguan 64 + tahan cuaca 36 (reset Senin 05:00)** · 🟡 absensi + blueprint event · 🟡 suplai faksi 11 tingkat / 57 permintaan · ⬜ `GuideProgress` / `TutorialEvent` |
 | Sosial: teman / party / clan / pasar / radio / musik / PvP | `████████░░` 6/7 | 🟡 **teman · party · clan (pangkat / gudang / chat / tanah / dana / sekutu / riset) · pasar · radio · musik → konser** semua sudah ada, menunggu uji client asli · ⬜ PvP (tidak direncanakan) |
-| Admin / Discord / cadangan | `██████████` 7/7 | ✅ **tautkan Discord lewat menu kupon (tombol "Masukkan kupon" baru di v2.7)** · bot tiket untuk Supporter · surat update otomatis · cadangan save · hot-reload tabel |
+| Admin / Discord / cadangan | `██████████` 7/7 | ✅ **tautkan Discord di dalam game: Pengaturan ▸ Account ▸ Link Discord (v3.0.0)** · kotak "Masukkan kupon" tetap menerima kode bot · bot tiket untuk Supporter · surat update otomatis · cadangan save · hot-reload tabel |
 
 ### ⚠️ Belum diuji dengan client asli — laporkan di [Issues](../../issues)
 - 🟡 **semua fitur putaran 19–20 Sep** (clan · mingguan · toko / kargo · modifikasi · suplai · skill peliharaan · retakan · mesin pukul · **keseimbangan tarung baru**) hanya diuji dengan bot
